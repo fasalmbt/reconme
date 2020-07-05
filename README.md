@@ -8,6 +8,7 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] Find IP address location
 - [x] TCP Port Scan
 - [x] Reverse IP Scan
+- [x] Forward DNS search
 
 ```
 This is tested using Python 3.6 in an Ubuntu 18.04 LTS

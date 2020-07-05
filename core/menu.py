@@ -6,6 +6,7 @@ from extensions.nslookup import nslookup
 from extensions.robots import robots
 from extensions.portscan import portscan
 from extensions.reverseip import reverseip
+from extensions.forwardns import forwardns
 
 def menu():
 	print("1 - Whois Lookup\n")
@@ -15,6 +16,7 @@ def menu():
 	print("5 - Find IP address location\n")
 	print("6 - TCP Port Scan\n")
 	print("7 - Reverse IP Lookup\n")
+	print("8 - Forward DNS search\n")
 	choice = int(input("Enter your choice:-"))
 	if choice == 1:
 		url = str(input("Enter the URL:-"))
@@ -37,6 +39,9 @@ def menu():
 	elif choice == 7:
 		url = str(input("Enter the URL:-"))
 		reverseip(url)
+	elif choice == 8:
+		url = str(input("Enter the URL:-"))
+		forwardns(url)
 	else:
 		print("Sorry bro! That was a wrong choice.")
 		exit()
