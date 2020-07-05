@@ -13,7 +13,7 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] Zone Transfer
 
 ```
-To run this: <br/>
+To run this:
 
 python3 reconme.py
 ```
