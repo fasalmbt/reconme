@@ -5,5 +5,7 @@ def robots(url):
 	reqq = r.get(robot)
 	if '<html>' not in reqq.text:
 		print("Found robots.txt ==> "+robot)
+		print("\n")
 	else:
 		print("Sorry! robots.txt not found")
+		print("\n")
