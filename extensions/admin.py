@@ -9,9 +9,9 @@ def admin(url):
 			req = r.urlopen(request)
 			code = req.getcode()
 			if code == 200:
-				print("admin panel ==> "+request)
 				print("\n")
+				print("admin panel ==> "+request)
 				break
 		except e.URLError as err:
-			print("Sorry not found at ==> "+request)
 			print("\n")
+			print("Sorry not found at ==> "+request)
