@@ -9,8 +9,12 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] TCP Port Scan
 - [x] Reverse IP Scan
 - [x] Forward DNS search
+- [x] HTTP Headers Check
+- [x] Zone Transfer
 
 ```
-This is tested using Python 3.6 in an Ubuntu 18.04 LTS
+To run this: <br/>
+
+python3 reconme.py
 ```
 
