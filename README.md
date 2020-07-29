@@ -11,6 +11,7 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] Forward DNS search
 - [x] HTTP Headers Check
 - [x] Zone Transfer
+- [x] Subnet Lookup
 
 ```
 To run this:
