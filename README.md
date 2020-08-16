@@ -12,6 +12,7 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] HTTP Headers Check
 - [x] Zone Transfer
 - [x] Subnet Lookup
+- [x] Wayback URL's
 
 ```
 To run this:
