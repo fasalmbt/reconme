@@ -9,6 +9,23 @@ from extensions.forwardns import forwardns
 from extensions.httpheaders import httpheaders
 from extensions.zonetransfer import zonetransfer
 from extensions.subnetlookup import subnetlookup
+from extensions.wayback import wayback
+
+def continue_else():
+	con = input("Sorry ! That was a wrong choice. Do you want to continue(Y/N) ")
+	if con == 'Y' or con == 'y':
+		menu()
+	else:
+		exit()
+		print("Bye!")
+
+def continue_choice():
+	con = input("Do you want to continue(Y/N) ")
+	if con == 'Y' or con == 'y':
+		menu()
+	else:
+		exit()
+		print("Bye!")
 
 def menu():
 	print("1  - Whois Lookup")
@@ -22,44 +39,56 @@ def menu():
 	print("9  - HTTP Headers Check")
 	print("10 - Zone Transfer")
 	print("11 - Subnet Lookup")
+	print("12 - Wayback URL's")
 	choice = int(input("\nEnter your choice >> "))
 	if choice == 1:
 		url = str(input("Enter the domain >> "))
 		whois(url)
+		continue_choice()
 	elif choice == 2:
 		url = str(input("Enter the domain/IP >> "))
 		nslookup(url)
+		continue_choice()
 	elif choice == 3:
 		url = str(input("Enter the domain/IP >> "))
 		robots(url)
+		continue_choice()
 	elif choice == 4:
 		url = str(input("Enter the domain >> "))
 		admin(url)
+		continue_choice()
 	elif choice == 5:
 		url = str(input("Enter the IP >> "))
 		iplocate(url)
+		continue_choice()
 	elif choice == 6:
 		url = str(input("Enter the domain/IP >> "))
 		portscan(url)
+		continue_choice()
 	elif choice == 7:
 		url = str(input("Enter the IP >> "))
 		reverseip(url)
+		continue_choice()
 	elif choice == 8:
 		url = str(input("Enter the domain/IP >> "))
 		forwardns(url)
+		continue_choice()
 	elif choice == 9:
 		url = str(input("Enter the domain/IP >> "))
 		httpheaders(url)
+		continue_choice()
 	elif choice == 10:
 		url = str(input("Enter the domain/IP >> "))
 		zonetransfer(url)
+		continue_choice()
 	elif choice == 11:
 		url = str(input("Enter the domain/IP >> "))
 		subnetlookup(url)
+		continue_choice()
+	elif choice == 12:
+		url = str(input("Enter the domain/IP >> "))
+		wayback(url)
+		continue_choice()
 	else:
-		print("Sorry ! That was a wrong choice. Do you want to continue(Y/N)?")
-		con = input()
-		if con == 'Y' or con == 'y':
-			menu()
-		else:
-			exit()
+		continue_else()
+
