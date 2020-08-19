@@ -22,9 +22,13 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] You have option to filter endpoints from wayback URL's
 
 
+## How to run 
+
 ```
-To run this:
+pip3 install -r requirements.txt
 
 python3 reconme
 ```
+
+
 
