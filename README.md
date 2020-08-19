@@ -1,6 +1,8 @@
 # reconme
 As the information in the internet is increasing day by day, its really a need of the hour to automate the recon process. reconme is a simple recon tool to automate the recon process.
 
+## Features
+
 - [x] Whois Lookup
 - [x] NameServer Lookup
 - [x] Robots.txt Scanner
@@ -14,9 +16,15 @@ As the information in the internet is increasing day by day, its really a need o
 - [x] Subnet Lookup
 - [x] Wayback URL's
 
+
+## Additional Feature
+
+- [x] You have option to filter endpoints from wayback URL's
+
+
 ```
 To run this:
 
-python3 reconme.py
+python3 reconme
 ```
 

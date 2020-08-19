@@ -16,16 +16,16 @@ def continue_else():
 	if con == 'Y' or con == 'y':
 		menu()
 	else:
-		exit()
 		print("Bye!")
+		exit()
 
 def continue_choice():
 	con = input("Do you want to continue(Y/N) ")
 	if con == 'Y' or con == 'y':
 		menu()
 	else:
-		exit()
 		print("Bye!")
+		exit()
 
 def menu():
 	print("1  - Whois Lookup")
