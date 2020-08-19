@@ -14,6 +14,6 @@ def wayback(url):
 		qu = str(input("You wanna filter endpoints and save it in a txt file (Y/N)? "))
 		if qu == "Y" or qu == "y":
 			os.system("cat site_wayback.txt | grep '=' > endpoints.txt")
-			print("saved to endpoints.txt")
+			print("Saved to endpoints.txt")
 	else:
 		sys.stdout.write(gotcha)
