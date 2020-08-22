@@ -5,6 +5,7 @@
   Reconme
   <br>
 </h1>
+<a href="https://github.com/fasalmbt/reconme/releases">
 
 As the information in the internet is increasing day by day, its really a need of the hour to automate the recon process. reconme is a simple recon tool to automate the recon process.
 
