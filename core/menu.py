@@ -11,6 +11,7 @@ from extensions.zonetransfer import zonetransfer
 from extensions.subnetlookup import subnetlookup
 from extensions.wayback import wayback
 
+
 def continue_else():
 	con = input("Sorry ! That was a wrong choice. Do you want to continue(Y/N) ")
 	if con == 'Y' or con == 'y':
@@ -42,11 +43,10 @@ def menu():
 	print("12 - Wayback URL's")
 	choice = int(input("\nEnter your choice >> "))
 	if choice == 1:
-		url = str(input("Enter the domain >> "))
 		whois(url)
 		continue_choice()
 	elif choice == 2:
-		url = str(input("Enter the domain/IP >> "))
+		url = args.u
 		nslookup(url)
 		continue_choice()
 	elif choice == 3:

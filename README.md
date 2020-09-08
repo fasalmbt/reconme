@@ -35,7 +35,7 @@ As the information in the internet is increasing day by day, its really a need o
 ```
 pip3 install -r requirements.txt
 
-python3 reconme
+python3 reconme.py
 ```
 
 
