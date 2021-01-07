@@ -5,6 +5,10 @@
   Reconme
   <br>
 </h1>
+<p align="center">
+    <img alt="Open Source" src="https://img.shields.io/badge/Maintained%3F-Yes-9cf?style=for-the-badge">
+    <img alt="reconme" src="https://img.shields.io/github/stars/fasalmbt/reconme?color=orange&style=for-the-badge">
+</p>
 
 
 As the information in the internet is increasing day by day, its really a need of the hour to automate the recon process. reconme is a simple recon tool to automate the recon process.
