@@ -8,6 +8,7 @@
 <p align="center">
     <img alt="Open Source" src="https://img.shields.io/badge/Maintained%3F-Yes-9cf?style=for-the-badge">
     <img alt="reconme" src="https://img.shields.io/github/stars/fasalmbt/reconme?color=orange&style=for-the-badge">
+    <img alt="fork" src="https://img.shields.io/github/forks/fasalmbt/reconme?color=blue&style=for-the-badge">
 </p>
 
 
