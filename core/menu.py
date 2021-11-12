@@ -1,4 +1,4 @@
-from extensions.whois import whois
+from extensions.who_is import who_is
 from extensions.admin import admin
 from extensions.iplocation import iplocate
 from extensions.nslookup import nslookup
@@ -35,7 +35,7 @@ def menu():
 	print("3  - Robots.txt Scanner")
 	print("4  - Admin Panel Scanner")
 	print("5  - Find IP address location")
-	print("6  - TCP Port Scan")
+	print("6  - Port Scan")
 	print("7  - Reverse IP Lookup")
 	print("8  - Forward DNS search")
 	print("9  - HTTP Headers Check")
@@ -45,8 +45,8 @@ def menu():
 	print("13 - Banner grabber")
 	choice = int(input("\nEnter your choice >> "))
 	if choice == 1:
-		url = str(input("Enter domain/IP >> "))
-		whois(url)
+		url = input("Enter domain/IP >> ")
+		who_is(url)
 		continue_choice()
 	elif choice == 2:
 		url = str(input("Enter domain/IP >> "))
@@ -65,7 +65,7 @@ def menu():
 		iplocate(url)
 		continue_choice()
 	elif choice == 6:
-		url = str(input("Enter domain/IP >> "))
+		url = str(input("Enter IP >> "))
 		portscan(url)
 		continue_choice()
 	elif choice == 7:

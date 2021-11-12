@@ -1,7 +1,10 @@
-import requests as r
-import sys
+import nmap
 
 def portscan(url):
-	gotcha = r.get('https://api.hackertarget.com/nmap/?q='+url).text
-	print("\n")
-	sys.stdout.write(gotcha)
+	nm = nmap.PortScanner()
+	scann = nm.scan(url, '22-443')
+	for url in nm.all_hosts():
+		for protocol in nm[url].all_protocols():
+			lport = nm[url][protocol].keys()
+			for port in lport:
+				print(port, nm[url][protocol][port]['state'])

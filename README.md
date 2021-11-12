@@ -44,5 +44,10 @@ pip3 install -r requirements.txt
 python3 reconme.py
 ```
 
+## Notes
+
+
+Due to API limit of hackertarget API, the portscan feature is updated. Inorder to run it, you need nmap to be installed
+in system. It can be installed by `sudo apt install nmap`.
 
 
